@@ -228,12 +228,18 @@ def remove_stopwords(data):
 # In[15]:
 
 
-def check_answer(cleaning,preprocessing,vectorizer,model,data,usr):
+def check_answer(cleaning,preprocessing,vectorizer,model, le, data,usr):
+    #print("1", data)
     cleaned_usr = cleaning.data_cleanup([usr])
+    print("2", cleaned_usr)
     t_usr_array = preprocessing.query(cleaned_usr, usr, vectorizer)
+    print("3", t_usr_array)
     prediction = model.predict(t_usr_array)[0]
-    questionset = data[data['Class']==prediction]
-
+    print("4", prediction)
+    predicted_class = le.inverse_transform([prediction])[0]
+    print("5", predicted_class)	
+    questionset = data[data['Class']==predicted_class]
+    #print("6", questionset)
 
     cos_sims = []
     for question in questionset['Question']:

@@ -24,7 +24,7 @@ cleaning=pickle.load(f)
 preprocessing=pickle.load(f)
 vectorizer = pickle.load(f)
 model=pickle.load(f)
-
+le=pickle.load(f)
 
 @app.route("/")
 def greeting():
@@ -40,7 +40,7 @@ def data_download(question):
     # question = request.form['question']
     # question = "what is fellowship?"
     print(question)
-    answer = check_answer(cleaning, preprocessing, vectorizer, model, data, question)
+    answer = check_answer(cleaning, preprocessing, vectorizer, model, le,  data, question)
     print(answer)
     # dict = {}
     # dict =
