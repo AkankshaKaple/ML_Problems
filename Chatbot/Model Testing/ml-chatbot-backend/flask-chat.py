@@ -28,7 +28,7 @@ le=pickle.load(f)
 
 @app.route("/")
 def greeting():
-    return "<h1 style='color:green'>Welcome to chat with Brigibot</h1>"
+    return "<h1 style='color:green'>Welcome to Bridgelabz Chatbot</h1>"
 
 @app.route('/chat', methods=['GET'])
 def chatpage():
