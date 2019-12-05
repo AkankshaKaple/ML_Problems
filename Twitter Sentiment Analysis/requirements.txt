@@ -16,7 +16,7 @@ cycler==0.10.0
 defer==1.0.6
 dill==0.3.0
 distro-info===0.18ubuntu0.18.04.1
-Django==2.2.5
+Django==2.2.8
 django-googlesearch==0.2
 enum34==1.1.6
 environ==1.0
