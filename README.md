@@ -4,9 +4,10 @@ This repository contains the problems I solved to be used in Open Source India 2
 
 ## Hello, folks! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
 
-My name is Shreyansh Shandilya.I am a fourth-year student at SRM IST. I am currently persuing bachelors in computer science and will receive my degree in 2021.
+My name is Akanskha Kaple.I am a Data Scientist.
 
 ### 📫 Where to find me
+https://www.linkedin.com/in/akanksha-kaple-858771121/
 
 ## GitHub Status
 
