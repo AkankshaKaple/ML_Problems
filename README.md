@@ -7,7 +7,8 @@ This repository contains the problems I solved to be used in Open Source India 2
 My name is Akanskha Kaple.I am a Data Scientist.
 
 ### 📫 Where to find me
-https://www.linkedin.com/in/akanksha-kaple-858771121/
+- [LinkedIn](https://www.linkedin.com/in/akanksha-kaple-858771121/) 👨💼
+
 
 ## GitHub Status
 
